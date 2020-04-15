@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boldtext {
+    font-weight: bold;
+}
+.leftsidedetails {
+    float: left;
+    width: 15%;
+    background-color: #2684AD;
+    color: white;
+}
+.keyskills {
+    background-color: #26408B;
+}
+h1 {
+    font: white;
+}
+/* .rightsidedetails {
+    color: #146287;
+} */
+.righth2 {
+    color: #26408B;
+}
+.rightsidedetails {
+    float: inline-end;
+}
