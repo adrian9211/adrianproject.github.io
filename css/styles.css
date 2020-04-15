@@ -1,14 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .boldtext {
     font-weight: bold;
 }
 .leftsidedetails {
+    padding: 0;
+    box-sizing: border-box;
     float: left;
-    width: 15%;
+    width: 15rem;
     background-color: #2684AD;
     color: white;
 }
@@ -25,5 +22,6 @@ h1 {
     color: #26408B;
 }
 .rightsidedetails {
-    float: inline-end;
+  position: relative;
+  margin-left: 300px;
 }
