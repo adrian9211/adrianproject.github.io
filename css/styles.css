@@ -1,14 +1,18 @@
+
 .boldtext {
     font-weight: bold;
 }
 .leftsidedetails {
+    list-style: none;
     padding: 0;
+    margin: 5px;
     box-sizing: border-box;
     float: left;
     width: 15rem;
     background-color: #2684AD;
     color: white;
     position: relative;
+    min-width: 15rem;
 }
 .keyskills {
     background-color: #26408B;
@@ -24,6 +28,17 @@ h1 {
 }
 .rightsidedetails {
   /* position: relative; */
-  margin-left: 300px;
+  margin-left: 20rem;
   position: absolute;
 }
+
+@media all and (max-width:700px) {
+    body {
+     color: blue;
+    }
+
+}
+.leftsidetext {
+    margin: 10px;
+}
+
