@@ -53,7 +53,9 @@ h1 {
     text-decoration: none;
     color: blue;
 } */
-
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 12fr;
@@ -61,8 +63,8 @@ h1 {
 
 .leftsidedetails {
     list-style: none;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     box-sizing: border-box;
     background-color: #2684AD;
     color: white;
@@ -71,9 +73,11 @@ h1 {
 
 .keyskills {
     background-color: #26408B;
+    text-align: center;
 }
 
 .rightsidedetails {
+    padding-left: 10px;
     margin-left: 1px;
     min-width: 400px;
 }
@@ -95,5 +99,13 @@ h1 {
 .email:hover {
     text-decoration: none;
     color: blue;
+}
+
+.alignment {
+    padding-left: 100px;
+}
+
+.leftsidetext {
+
 }
 
