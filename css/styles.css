@@ -1,4 +1,5 @@
 
+
 .boldtext {
     font-weight: bold;
 }
@@ -16,6 +17,7 @@
 }
 .keyskills {
     background-color: #26408B;
+    text-align: center;
 }
 h1 {
     font: white;
@@ -30,7 +32,8 @@ h1 {
   /* position: relative; */
   margin-left: 20rem;
   position: absolute;
-  min-width: 400px;
+  width:  90%;
+  min-width: 300px;
 }
 
 @media all and (max-width:700px) {
@@ -43,3 +46,12 @@ h1 {
     margin: 10px;
 }
 
+.email {
+    text-decoration: none;
+    color: white;
+}
+
+.email:hover {
+    text-decoration: none;
+    color: blue;
+}
