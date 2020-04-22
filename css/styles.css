@@ -1,58 +1,10 @@
 /* 
-
-.boldtext {
-    font-weight: bold;
-}
-.leftsidedetails {
-    list-style: none;
-    padding: 0;
-    margin: 5px;
-    box-sizing: border-box;
-    float: left;
-    width: 15rem;
-    background-color: #2684AD;
-    color: white;
-    position: relative;
-    min-width: 15rem;
-}
-.keyskills {
-    background-color: #26408B;
-    text-align: ;
-}
-h1 {
-    font: white;
-}
-
-.righth2 {
-    color: #26408B;
-}
-.rightsidedetails {
-
-  margin-left: 20rem;
-  position: absolute;
-  width:  90%;
-  min-width: 300px;
-}
-
 @media all and (max-width:700px) {
     body {
      color: blue;
     }
 
-}
-.leftsidetext {
-    margin: 10px;
-}
-
-.email {
-    text-decoration: none;
-    color: white;
-}
-
-.email:hover {
-    text-decoration: none;
-    color: blue;
-} */
+*/
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -63,10 +15,8 @@ h1 {
 
 .leftsidedetails {
     list-style: none;
-    padding: 10px;
-    margin: 10px;
-    box-sizing: border-box;
-    background-color: #2684AD;
+    padding: 0px;
+    margin: 0px;
     color: white;
     width: 250px;
 }
@@ -84,7 +34,6 @@ h1 {
 
 .footer {
     text-align: center;
-    color: blue;
 }
 
 .boldtext {
@@ -106,6 +55,32 @@ h1 {
 }
 
 .leftsidetext {
+    padding: 10px;
 
 }
 
+hr {
+    border: solid 1px #26408B;
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
+    
+  }
