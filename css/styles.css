@@ -1,12 +1,13 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media all and (min-width:710px) {
 .container {
     display: grid;
     grid-template-columns: 280px auto;
     grid-template-areas:
     'nav main'
-    'footer footer';
+    'footer';
 }
 
 .keyskills {
@@ -74,8 +75,13 @@ img {
 
 img:hover {
     box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
+}
+.name {
+        text-align: left;
+     }
   }
-  @media (max-width:710px) {
+
+  @media all and (max-width:710px) {
     .container {
         display: grid;
         grid-template-columns: auto;
@@ -84,7 +90,6 @@ img:hover {
         'main'
         'footer';
         }
-    }
     .keyskills {
         background-color: #26408B;
         text-align: center;
@@ -93,42 +98,31 @@ img:hover {
         padding: 10px;
         margin-left: 1px;
         min-width: 400px;
-        
     }
-    
     .footer {
         text-align: center;
     }
-    
     .boldtext {
         font-weight: bold;
     }
-    
     .email {
         text-decoration: none;
         color: white;
     }
-    
     .email:hover {
         text-decoration: none;
         color: blue;
     }
-    
     .alignment {
         padding-left: 80px;
         padding-right: 10px;
     }
-    
     .leftsidetext {
         padding: 10px;
-        text-align: center;
-    
     }
-    
     hr {
         border: solid 1px #26408B;
     }
-    
     nav {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
     background: #1e5799; /* Old browsers */
@@ -137,7 +131,6 @@ img:hover {
     background: linear-gradient(135deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
-    
     img {
         width: 200px;
         border-radius: 50%;
@@ -145,11 +138,10 @@ img:hover {
         margin-left: auto;
         margin-right: auto;
     }
-    
     img:hover {
         box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
       }
     .name {
-        text-align: center;
+       text-align: center;
     }
-    }
+}
