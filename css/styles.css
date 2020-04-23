@@ -90,10 +90,10 @@ img:hover {
         text-align: center;
     }
     .rightsidedetails {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
         margin-left: 1px;
         min-width: 400px;
+        
     }
     
     .footer {
@@ -121,6 +121,7 @@ img:hover {
     
     .leftsidetext {
         padding: 10px;
+        text-align: center;
     
     }
     
@@ -148,4 +149,7 @@ img:hover {
     img:hover {
         box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
       }
+    .name {
+        text-align: center;
+    }
     }
