@@ -72,6 +72,7 @@ img:hover {
     box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
 }
 .name {
+        margin-bottom: 0;
         text-align: left;
         font-size: 2rem;
      }
@@ -87,7 +88,7 @@ img:hover {
         'footer';
         }
         main {
-            padding-left: 10px;
+            padding-left: 0px;
             margin-left: 0px;
             min-width: 400px; 
         }
@@ -110,7 +111,7 @@ img:hover {
         color: blue;
     }
     .alignment {
-        padding-left: 80px;
+        padding-left: 40px;
         padding-right: 10px;
     }
     hr {
@@ -140,9 +141,14 @@ img:hover {
       }
     .name {
        text-align: center;
+       margin-bottom: 0;
+       font-size: 2rem; 
     }
     #addpadding {
         padding-left: 15px;
         padding-right: 10px;
+    }
+    .righth2 {
+        padding-left: 30p;
     }
 } /* End of second media querry */
