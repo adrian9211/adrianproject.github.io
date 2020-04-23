@@ -16,10 +16,6 @@
     'footer footer';
 }
 
-.leftsidedetails {
-    
-}
-
 .keyskills {
     background-color: #26408B;
     text-align: center;
@@ -73,8 +69,7 @@ list-style: none;
     padding: 0px;
     margin: 0px;
     color: white;
-    width: 250px;
-}
+    }
 
 img {
     width: 200px;
@@ -87,7 +82,7 @@ img {
 img:hover {
     box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
   }
-  @media (max-width:410px) {
+  @media (max-width:710px) {
     .container {
         display: grid;
     grid-template-columns: auto;
@@ -96,20 +91,12 @@ img:hover {
     'main'
     'footer';
         color: blue;
+        }
     }
-    .leftsidedetails {
-        list-style: none;
-        padding: 0px;
-        margin: 0px;
-        color: white;
-        width: 250px;
-    }
-    
     .keyskills {
         background-color: #26408B;
         text-align: center;
     }
-    
     .rightsidedetails {
         padding-left: 10px;
         margin-left: 1px;
