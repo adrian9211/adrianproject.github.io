@@ -10,7 +10,7 @@
     'footer';
 }
 main {
-    padding-left: 10px;
+    padding-left: 20px;
     margin-left: 0px;
     min-width: 400px; 
 }
@@ -59,8 +59,10 @@ nav {
     #addpadding {
         padding-left: 15px;
         padding-right: 10px;
+        padding-bottom: 3px;
     }
-img {
+.mainphoto {
+    margin-top: 20px;
     width: 200px;
     border-radius: 50%;
     display: block;
@@ -68,14 +70,24 @@ img {
     margin-right: auto;
 }
 
-img:hover {
+.mainphoto:hover {
     box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
+}
+svg {
+    display: block;
+    width: 100%;
+}
+.icons {
+    display: flex;
 }
 .name {
         margin-bottom: 0;
         text-align: left;
         font-size: 2rem;
      }
+a {
+    padding-bottom: 3px;
+}
    } /* End of first media querry */
 
   @media all and (max-width:710px) {
@@ -129,16 +141,26 @@ img:hover {
         margin: 0px;
         color: white;
     }
-    img {
+    .mainphoto {
+        margin-top: 20px;
         width: 200px;
         border-radius: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    img:hover {
+    .mainphoto:hover {
         box-shadow: 0 0 6px 6px rgba(5, 248, 228, 0.5);
       }
+      svg {
+        display: block;
+        width: 100%;
+    }
+    .icons {
+        display: flex;
+    }
+
+    }
     .name {
        text-align: center;
        margin-bottom: 0;
@@ -147,8 +169,12 @@ img:hover {
     #addpadding {
         padding-left: 15px;
         padding-right: 10px;
+        padding-bottom: 3px;
     }
     .righth2 {
         padding-left: 30p;
+    }
+    a {
+        padding-bottom: 3px;
     }
 } /* End of second media querry */
