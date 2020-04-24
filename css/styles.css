@@ -75,7 +75,8 @@ nav {
 }
 svg {
     display: block;
-    width: 100%;
+    width: 25%;
+    padding:10px;
 }
 .icons {
     display: flex;
@@ -88,7 +89,7 @@ svg {
 a {
     padding-bottom: 3px;
 }
-   } /* End of first media querry */
+   } /* End of first media querry prapared for screen sizes over 710px basicly all computer browsers*/
 
   @media all and (max-width:710px) {
     .container {
@@ -154,7 +155,8 @@ a {
       }
       svg {
         display: block;
-        width: 100%;
+        width: 20%;
+        padding: 20px 20px 20px 40px;
     }
     .icons {
         display: flex;
@@ -177,4 +179,4 @@ a {
     a {
         padding-bottom: 3px;
     }
-} /* End of second media querry */
+} /* End of second media querry prepared for screen sizes below 710px- fit most mobilephones */
